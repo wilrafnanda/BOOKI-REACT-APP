@@ -15,7 +15,7 @@ function App() {
   const [tab, setTab] = useState("Books")
   const [character, setselectedcharacter] = useState("Harry James Potter")
   const [handleside, setHandleside] = useState(false)
-  const [pages, setPages] = useState(false)
+  const [pages, setPages] = useState(true)
 
   const toggleSide = ()=> {
     setHandleside(prev => !prev);
