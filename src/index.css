@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+.book-card{
+    max-width: 300px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgba(184, 184, 184, 0.788);
+    padding: 20px;
+}
+
+
+
+.modal-container{
+    background-color: white;
+    width: 90%;
+    padding: 20px;
+    max-width: 1000px;
+}
+
+
+
+@media screen and (min-width:1280px) {
+    .custom{
+        font-size: 0.9rem;
+    
+    }
+    .books-grid{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+}
+@media screen and (min-width:1500px) {
+    .custom{
+        font-size: 1.1rem;
+        
+    }
+}
+@media screen and (min-width:1700px) {
+    .custom{
+        font-size: 1.36rem;
+        
+    }
+}
+@media screen and (min-width:1800px) {
+    .custom{
+        font-size: 1.1rem;
+        
+    }
+}
+@media screen and (min-width:700px) {
+    .books-grid{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width:1000px) {
+    .books-grid{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        margin: 0 auto;
+        
+    }
+}
