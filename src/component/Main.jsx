@@ -46,8 +46,8 @@ export default function () {
                         >
                             &times;
                         </button>
-                        <h2 className="font-bold text-xl mb-4">Modal Information</h2>
-                        <p>This is the content inside the modal overlay.</p>
+                        <h2 className="font-bold text-2xl mb-4 text-black">Build By</h2>
+                        <p className='font-black text-blue-950 text-xl'>William Raphael Using ReactJs</p>
                     </div>
                 </div>
             )}
